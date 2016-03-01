@@ -8,7 +8,7 @@ from random import randint
 """
 This script checks periodically if the new grades are online within the FHWS-Studentenportal. If three login attempts in a row failed the script exits.
 It depends on selenium with phantomjs-webdriver. To use this script both must be installed!
-Tested with python 2.7
+Tested with python 2.7 and windows - if you want to use in on linux you have to remove winsound.
 """
 
 current_semester = '2015 Winter'  # put your current semester in here!
